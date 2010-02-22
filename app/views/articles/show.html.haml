@@ -1,0 +1,9 @@
+- title h(@article.title)
+%p
+    = @article.content
+%p
+    %strong Categoria
+    = link_to @article.category.name , category_path(@article.category)
+- if session[:logged]
+    %p= "#{link_to "Editar", edit_article_path(@article)} | #{link_to "Apagar", @article, :confirm => 'Are you sure?', :method => :delete} | #{link_to "Ver todos", articles_path}"
+

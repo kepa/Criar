@@ -1,0 +1,368 @@
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** USR2 signal received.
+** Restarting with arguments:  ruby /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails start -d
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+/home/nathan/codes/rails/criar/app/views/articles/_form.html.erb:2: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:36
+/home/nathan/codes/rails/criar/app/views/articles/_form.html.erb:2: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:36
+/home/nathan/codes/rails/criar/app/views/articles/_form.html.erb:2: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:36
+/home/nathan/codes/rails/criar/app/views/articles/_form.html.erb:2: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:36
+/home/nathan/codes/rails/criar/app/views/articles/_form.html.erb:2: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:36
+/home/nathan/codes/rails/criar/app/views/articles/_form.html.erb:2: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:36
+/home/nathan/codes/rails/criar/app/views/articles/_form.html.erb:2: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:36
+/home/nathan/codes/rails/criar/app/views/articles/_form.html.erb:2: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:36
+/home/nathan/codes/rails/criar/app/views/articles/_form.html.erb:2: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/helpers/capture_helper.rb:36
+** USR2 signal received.
+** Restarting with arguments:  ruby /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails start -d
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** USR2 signal received.
+** Restarting with arguments:  ruby /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails start -d
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+Wed Jan 20 15:07:14 -0300 2010: Error calling Dispatcher.dispatch #<NameError: undefined local variable or method `sessions' for main:Object>
+/home/nathan/codes/rails/criar/config/routes.rb:5
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:226:in `draw'
+/home/nathan/codes/rails/criar/config/routes.rb:1
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load_without_new_constant_marking'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+/usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:286:in `each'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:266:in `load!'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:281:in `reload'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:58:in `reload_application'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:33:in `run'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/cgi_process.rb:44:in `dispatch_cgi'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:101:in `dispatch_cgi'
+/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:27:in `dispatch'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:282:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:281:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/home/nathan/codes/rails/criar/config/routes.rb:5: undefined local variable or method `sessions' for main:Object (NameError)
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:226:in `draw'
+	from /home/nathan/codes/rails/criar/config/routes.rb:1
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load_without_new_constant_marking'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:521:in `new_constants_in'
+	from /usr/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/dependencies.rb:145:in `load'
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:286:in `each'
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:286:in `load_routes!'
+	from /usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:266:in `reload!'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/initializer.rb:537:in `initialize_routing'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/initializer.rb:188:in `process'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/initializer.rb:113:in `send'
+	from /usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/initializer.rb:113:in `run'
+	from /home/nathan/codes/rails/criar/config/environment.rb:9
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:147:in `rails'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:113:in `cloaker_'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `call'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `listener'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `call'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `initialize'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `new'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /usr/bin/mongrel_rails:19:in `load'
+	from /usr/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** USR2 signal received.
+** Restarting with arguments:  ruby /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails start -d
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** USR2 signal received.
+** Restarting with arguments:  ruby /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails start -d
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** USR2 signal received.
+** Restarting with arguments:  ruby /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails start -d
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+/home/nathan/codes/rails/criar/app/views/sessions/new.html.haml:3: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:141
+/home/nathan/codes/rails/criar/app/views/sessions/new.html.haml:3: warning: multiple values for a block parameter (0 for 1)
+	from /usr/lib/ruby/gems/1.8/gems/haml-2.2.17/lib/haml/helpers/action_view_mods.rb:141
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** USR2 signal received.
+** Restarting with arguments:  ruby /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails start -d
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': /home/nathan/codes/rails/criar/config/environment.rb:44: unterminated string meets end of file (SyntaxError)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:147:in `rails'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:113:in `cloaker_'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `call'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `listener'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `call'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `initialize'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `new'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': /home/nathan/codes/rails/criar/config/environment.rb:44: unterminated string meets end of file (SyntaxError)
+	from /usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:147:in `rails'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:113:in `cloaker_'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `call'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:149:in `listener'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:99:in `cloaker_'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `call'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/configurator.rb:50:in `initialize'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `new'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:84:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/command.rb:212:in `run'
+	from /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+	from /usr/bin/mongrel_rails:19:in `load'
+	from /usr/bin/mongrel_rails:19
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** USR2 signal received.
+** Restarting with arguments:  ruby /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails start -d
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** USR2 signal received.
+** Restarting with arguments:  ruby /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails start -d
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** USR2 signal received.
+** Restarting with arguments:  ruby /usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails start -d
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.

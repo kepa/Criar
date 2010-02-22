@@ -1,0 +1,13 @@
+- title h(@category.name)
+- if @category.articles.any?
+    - for article in @category.articles.reverse
+        %h3= "#{link_to article.title , article_path(article)}(#{article.created_at.to_s(:short_time)})"
+        %p= h( article.content)
+- else
+    %p Nenhum Artigo associado a essa categoria
+- if session[:logged]
+    %p
+        = "#{link_to "Editar", edit_category_path(@category)} "
+        = "| #{link_to "Apagar", @category, :confirm => 'Are you sure?', :method => :delete}"
+        = "| #{link_to "Ver todos", categories_path}"
+

@@ -1,0 +1,15 @@
+- semantic_form_for @article do |f|
+    %table{:width=>'100%'}
+    - f.inputs do
+        %tr
+            %td Titulo:
+            %td= f.input :title , :label => false , :size => '50'
+        %tr
+            %td Conteudo:
+            %td= f.input :content , :label => false , :cols => '45'
+        %tr
+            %td Categoria
+            %td= f.input :category , :label => false , :enable_blank => false
+        %tr
+            %td{:colspan => 2}= f.submit "Postar"
+

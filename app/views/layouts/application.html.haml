@@ -1,0 +1,34 @@
+!!!
+%html
+    %head
+        %title= h(yield(:title) || "Criar")
+        = stylesheet_link_tag 'application'
+        = yield(:head)
+    %body
+        .container
+
+            %h1(class = "head") Criar
+
+            .content
+                .navbar
+                    = "| #{link_to "Home" , root_path} "
+                    - for category in Category.all
+                        = "| #{link_to category.name , category} " if category.id != 1
+                    - if session[:logged]
+                        = "| #{link_to "Fixos", Category.first } "
+                        = "| #{link_to "Logout" , logout_path} "
+                    |
+
+
+                %h2(id = "head")= h(yield(:title))
+
+                - flash.each do |name, msg|
+                    = content_tag :div, msg, :id => "flash_#{name}"
+
+                = yield
+
+            - for article in Article.find(:all , :conditions => ["category_id=?",1])
+                .fixed
+                    %h2= article.title
+                    %p= article.content
+

@@ -1,0 +1,8 @@
+- for article in @articles
+    %h3
+        = link_to article.title , article
+        = "(#{article.created_at.to_s(:short_time)})"
+    %p= article.content
+- if session[:logged]
+    %p= "#{link_to "Nova Categoria",new_category_path}|#{link_to "Novo Artigo",new_article_path}"
+
